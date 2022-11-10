@@ -24,7 +24,28 @@ select * from tbl_member;
 
 
 
+create table tbl_lend
+(
+	lid int primary key,
+	bookcode int not null,
+	memId varchar(45) not null,
+	startDate date,
+	endDate  date
+);
+desc tbl_lend;
 
+select * from tbl_lend;
+select * from tbl_book;
+
+
+
+
+
+select * from tbl_member;
+
+
+insert into tbl_member values('mem1','1111',1);
+insert into tbl_member values('mgr1','1111',2);
 
 
 

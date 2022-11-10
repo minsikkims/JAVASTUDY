@@ -33,7 +33,7 @@ public class AuthService {
 		{
 			return dto.getRole();
 		}
-		//role반환(0 or 1 or Null)
+		//role반환(1 or 2 or Null)
 		return null;
 	}
 	
